@@ -42,16 +42,6 @@ Despite significant progress in traditional and deep learning methods, there is 
 
 * Kaggle Notebook (for model training with GPU support)
 
-**🚀 Getting Started**\
-This section assumes you want to clone and explore the project (for future enhancement, interface, or testing).
-
-bash
-Copy
-Edit
-git clone https://github.com/KushalGowdaKN/VSAD-fyp.git
-cd VSAD
-Frame extraction and inference code will be added once the real-time interface or batch analysis component is finalized.
-
 **📊 Future Work**\
 * Real-time anomaly detection and alerting
 

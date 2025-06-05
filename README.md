@@ -16,28 +16,28 @@ Despite significant progress in traditional and deep learning methods, there is 
 ✅ Design a user-friendly alert interface for timely review, interpretation, and response to flagged anomalies.
 
 **🧠 Model Architecture**\
+-ResNet-18: Used for extracting spatial features from individual video frames.
 
-ResNet-18: Used for extracting spatial features from individual video frames.
+-LSTM (Long Short-Term Memory): Applied for temporal sequence modeling to identify activity-based anomalies over time.
 
-LSTM (Long Short-Term Memory): Applied for temporal sequence modeling to identify activity-based anomalies over time.
-
-The model is trained using Kaggle Notebooks to leverage GPU acceleration.
+-The model is trained using Kaggle Notebooks to leverage GPU acceleration.
 
 **📂 Dataset**\
-UCF-Crime Dataset
+-A large-scale real-world surveillance dataset consisting of over 1900 videos across 14 different classes of activities, including both normal and anomalous events.
 
-Contains over 1900 real-world surveillance videos.
+-In this project, we focused on 4 specific anomaly classes:
+Fighting, Arson, Stealing, and Explosion.
 
-Includes both normal and anomalous activities such as fighting, robbery, arson, and more.
+-These classes were selected to train the model for detecting high-risk and visually distinguishable anomalous behaviors.
 
 **⚙️ Tools & Technologies**\
-Python, PyTorch
+-Python, PyTorch
 
-ResNet-18, LSTM
+-ResNet-18, LSTM
 
-OpenCV (for frame extraction)
+-OpenCV (for frame extraction)
 
-Kaggle Notebook (for model training with GPU support)
+-Kaggle Notebook (for model training with GPU support)
 
 **🚀 Getting Started**\
 This section assumes you want to clone and explore the project (for future enhancement, interface, or testing).

@@ -15,14 +15,14 @@ Despite significant progress in traditional and deep learning methods, there is 
 
 ✅ Design a user-friendly alert interface for timely review, interpretation, and response to flagged anomalies.
 
-**🧠 Model Architecture**\
+**🧠 Model Architecture**
 * ResNet-18: Used for extracting spatial features from individual video frames.
 
 * LSTM (Long Short-Term Memory): Applied for temporal sequence modeling to identify activity-based anomalies over time.
 
 * The model is trained using Kaggle Notebooks to leverage GPU acceleration.
 
-**📂 Dataset**\
+**📂 Dataset**
 
 * A large-scale real-world surveillance dataset consisting of over 1900 videos across 14 different classes of activities, including both normal and anomalous events.
 

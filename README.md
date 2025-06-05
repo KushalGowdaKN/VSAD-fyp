@@ -34,7 +34,7 @@ Despite significant progress in traditional and deep learning methods, there is 
 
 * These classes were selected to train the model for detecting high-risk and visually distinguishable anomalous behaviors.
 
-**⚙️ Tools & Technologies**\
+**⚙️ Tools & Technologies**
 * Python, PyTorch
 
 * ResNet-18, LSTM
@@ -43,12 +43,12 @@ Despite significant progress in traditional and deep learning methods, there is 
 
 * Kaggle Notebook (for model training with GPU support)
 
-**📊 Future Work**\
+**📊 Future Work**
 * Real-time anomaly detection and alerting
 
 * Enhanced UI dashboard for flagged anomaly review
 
 * Optimization for edge deployment (e.g., Jetson Nano, Raspberry Pi)
 
-**🧾 License**\
+**🧾 License**
 This project is for academic and research purposes.

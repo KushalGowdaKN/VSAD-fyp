@@ -1,4 +1,4 @@
-**🎥 Video Anomaly Detection System**
+**🎥 Video Anomaly Detection System**\
 An efficient, lightweight deep learning-based system for detecting anomalies in surveillance video data using ResNet-18 and LSTM. The project addresses the challenge of accurately identifying abnormal events across large and diverse video datasets, enabling automated monitoring and effective alert systems for real-world security applications.
 
 **📌 Problem Statement**

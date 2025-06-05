@@ -18,26 +18,29 @@ Despite significant progress in traditional and deep learning methods, there is 
 **🧠 Model Architecture**\
 * ResNet-18: Used for extracting spatial features from individual video frames.
 
-*LSTM (Long Short-Term Memory): Applied for temporal sequence modeling to identify activity-based anomalies over time.
+* LSTM (Long Short-Term Memory): Applied for temporal sequence modeling to identify activity-based anomalies over time.
 
-*The model is trained using Kaggle Notebooks to leverage GPU acceleration.
+* The model is trained using Kaggle Notebooks to leverage GPU acceleration.
 
 **📂 Dataset**\
-*A large-scale real-world surveillance dataset consisting of over 1900 videos across 14 different classes of activities, including both normal and anomalous events.
+* A large-scale real-world surveillance dataset consisting of over 1900 videos across 14 different classes of activities, including both normal and anomalous events.
 
-*In this project, we focused on 4 specific anomaly classes:
-Fighting, Arson, Stealing, and Explosion.
+* In this project, we focused on 4 specific anomaly classes:
+  - Fighting
+  -  Arson
+  -  Stealing
+  -  Explosion.
 
-*These classes were selected to train the model for detecting high-risk and visually distinguishable anomalous behaviors.
+* These classes were selected to train the model for detecting high-risk and visually distinguishable anomalous behaviors.
 
 **⚙️ Tools & Technologies**\
-*Python, PyTorch
+* Python, PyTorch
 
-*ResNet-18, LSTM
+* ResNet-18, LSTM
 
-*OpenCV (for frame extraction)
+* OpenCV (for frame extraction)
 
-*Kaggle Notebook (for model training with GPU support)
+* Kaggle Notebook (for model training with GPU support)
 
 **🚀 Getting Started**\
 This section assumes you want to clone and explore the project (for future enhancement, interface, or testing).
@@ -50,11 +53,11 @@ cd VSAD
 Frame extraction and inference code will be added once the real-time interface or batch analysis component is finalized.
 
 **📊 Future Work**\
-Real-time anomaly detection and alerting
+* Real-time anomaly detection and alerting
 
-Enhanced UI dashboard for flagged anomaly review
+* Enhanced UI dashboard for flagged anomaly review
 
-Optimization for edge deployment (e.g., Jetson Nano, Raspberry Pi)
+* Optimization for edge deployment (e.g., Jetson Nano, Raspberry Pi)
 
 **🧾 License**\
 This project is for academic and research purposes.

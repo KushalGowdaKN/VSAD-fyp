@@ -23,6 +23,7 @@ Despite significant progress in traditional and deep learning methods, there is 
 * The model is trained using Kaggle Notebooks to leverage GPU acceleration.
 
 **📂 Dataset**\
+
 * A large-scale real-world surveillance dataset consisting of over 1900 videos across 14 different classes of activities, including both normal and anomalous events.
 
 * In this project, we focused on 4 specific anomaly classes:

@@ -16,7 +16,7 @@ Despite significant progress in traditional and deep learning methods, there is 
 ✅ Design a user-friendly alert interface for timely review, interpretation, and response to flagged anomalies.
 
 **🧠 Model Architecture**\
-*ResNet-18: Used for extracting spatial features from individual video frames.
+* ResNet-18: Used for extracting spatial features from individual video frames.
 
 *LSTM (Long Short-Term Memory): Applied for temporal sequence modeling to identify activity-based anomalies over time.
 
